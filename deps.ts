@@ -6,7 +6,7 @@ export * as hash from "https://deno.land/std@0.69.0/hash/mod.ts";
 export { cac } from "https://unpkg.com/cac@6.6.1/mod.js";
 
 // @deno-types="https://unpkg.com/rollup@2.26.11/dist/rollup.d.ts"
-export { rollup } from "https://unpkg.com/rollup@2.26.11/dist/es/rollup.browser.js";
+export { rollup } from "https://cdn.skypack.dev/rollup";
 export type {
   ModuleFormat,
   OutputAsset,
